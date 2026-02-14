@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/HibProj-Le03/pom.xml" />
+        <option value="$PROJECT_DIR$/HibProj-Le04/pom.xml" />
+        <option value="$PROJECT_DIR$/HibProj-Le05/pom.xml" />
+        <option value="$PROJECT_DIR$/HibProj-Le06/pom.xml" />
+        <option value="$PROJECT_DIR$/HibProj-Le07/pom.xml" />
+        <option value="$PROJECT_DIR$/HibProj-Le08/pom.xml" />
+        <option value="$PROJECT_DIR$/HibProj-Le09/pom.xml" />
+        <option value="$PROJECT_DIR$/HibProj-Le10/pom.xml" />
+        <option value="$PROJECT_DIR$/HibProj-Le11/pom.xml" />
+        <option value="$PROJECT_DIR$/HibProj-Le13/pom.xml" />
+        <option value="$PROJECT_DIR$/HibProj-Le14/pom.xml" />
+        <option value="$PROJECT_DIR$/HibProj-Le15/pom.xml" />
+        <option value="$PROJECT_DIR$/HibProj-Le16/pom.xml" />
+        <option value="$PROJECT_DIR$/HibProj-Le19/pom.xml" />
+        <option value="$PROJECT_DIR$/HibProj-Le20/pom.xml" />
+        <option value="$PROJECT_DIR$/HibProj-Le21/pom.xml" />
+        <option value="$PROJECT_DIR$/HibProj-Le22/pom.xml" />
+        <option value="$PROJECT_DIR$/HibernateSetup/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="corretto-21" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

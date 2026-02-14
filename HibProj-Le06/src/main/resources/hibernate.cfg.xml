@@ -1,10 +1,12 @@
 <hibernate-configuration xmlns="http://www.hibernate.org/xsd/orm/cfg">
     <session-factory>
         <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
-        <property name="hibernate.connection.url">jdbc:postgresql://localhost:5432/telusko</property>
-        <property name="hibernate.connection.username">postgres</property>
-        <property name="hibernate.connection.password">12345678</property>
+        <property name="hibernate.connection.url">jdbc:postgresql://localhost:5432/demo</property>
+        <property name="hibernate.connection.username">demo</property>
+        <property name="hibernate.connection.password">demo</property>
 
+        <!-- Dialect is like slang english is spoken different in different ares   -->
+        <!-- In the same way we have postgres sql, oracle sql, My sql  -->
         <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
         <property name="hibernate.hbm2ddl.auto">update</property>
         <property name="hibernate.show_sql">true</property>

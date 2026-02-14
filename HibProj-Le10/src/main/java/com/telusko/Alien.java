@@ -12,6 +12,9 @@ public class Alien {
     @Column(name = "alien_name")
     private String aname;
 
+
+    // If we use Transient annotation then this variable will not be stored in the database
+    // it will not be considered as a column in the table.
     @Transient
     private String tech;
 

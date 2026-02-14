@@ -14,6 +14,10 @@ public class Main {
         l1.setRam(16);
 
 
+
+        // here we are setting laptop details to the alien class
+        // then we are saving the alien class details to the database
+        // Here all the data in the laptop will be stored in the alien table
         Alien a1 = new Alien();
         a1.setAid(101);
         a1.setAname("Navin");

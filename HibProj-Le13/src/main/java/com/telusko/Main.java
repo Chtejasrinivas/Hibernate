@@ -8,6 +8,13 @@ import org.hibernate.cfg.Configuration;
 public class Main {
     public static void main(String[] args) {
 
+
+        /**
+         * this project is all about explaining the one to one mapping in hibernate,
+         * here we have two classes Alien and Laptop,
+         * and we will see how to save the data of both the classes in the database
+         * and how to retrieve the data from the database.
+         **/
         Laptop l1 = new Laptop();
         l1.setLid(1);
         l1.setBrand("Asus");

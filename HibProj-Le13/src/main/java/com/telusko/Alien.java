@@ -11,6 +11,7 @@ public class Alien {
     private int aid;
     private String aname;
     private String tech;
+    // One to one mapping means that one alien can have only one laptop and one laptop can be assigned to only one alien.
     @OneToOne
     private Laptop laptop;
 

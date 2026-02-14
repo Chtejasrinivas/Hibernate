@@ -10,6 +10,10 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
 
+
+        // Demo for Many to Many
+        // Here in either of the entity we can specify the mapped by
+        // or else both will create the mapping table with the redundant.
         Laptop l1 = new Laptop();
         l1.setLid(1);
         l1.setBrand("Asus");

@@ -10,6 +10,8 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
 
+
+        // This module depicts the fetch type lazy vs eager
         Laptop l1 = new Laptop();
         l1.setLid(1);
         l1.setBrand("Asus");
@@ -68,6 +70,11 @@ public class Main {
 
         Session session1 = sf.openSession();
 
+        // If we put the fetch type as lazy then the laptops will not be loaded until we call the getLaptops() methods or print the data
+        // and if we put the fetch type as eager then the laptops will be loaded along with the alien object.
+
+
+        // here for the laptops in the alien it's set as Eager then this will fetch all the details of laptop along with alien
         Alien a5 = session1.find(Alien.class, 101);
 //        System.out.println(a5);
         session1.close();

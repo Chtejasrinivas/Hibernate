@@ -25,9 +25,19 @@ public class Main {
                 .buildSessionFactory();
 
         Session session = sf.openSession();
+
+        // get
         s1 = session.find(Student.class, 109);
+
+        // here we are starting the start transaction because we are going to update and delete the data in the database
         Transaction transaction = session.beginTransaction();
+
+        // update
+        session.merge(s1);
+
+        //delete
         session.remove(s1);
+
         transaction.commit();
         session.close();
         sf.close();

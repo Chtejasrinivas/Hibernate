@@ -11,6 +11,8 @@ public class Main {
     public static void main(String[] args) {
 
 
+        // Demo for HQL where the data is dynamic
+        // select laptop where brand is asus (but this brand name is coming from user)
         SessionFactory sf = new Configuration()
                 .configure()
                 .addAnnotatedClass(com.telusko.Laptop.class)

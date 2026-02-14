@@ -13,6 +13,16 @@ public class Alien {
     private int aid;
     private String aname;
     private String tech;
+    /** here without mapped by it will create a separate table for alien and laptop mapping
+     since we have already created a table for laptop and alien mapping in laptop class with the help of @ManyToOne annotation
+     so we will use mapped by to tell that the mapping is already done in laptop class
+     and we don't need to create a separate table for it.
+    */
+
+    /**
+     * Rule of thumb the one is having @OneToMany annotation will be the parent and the one is having @ManyToOne annotation will be the child.
+     * if we don't tell the parent that your child will create the mapping then parent will create it.
+      */
     @OneToMany(mappedBy = "alien")
     private List<Laptop> laptops;
 

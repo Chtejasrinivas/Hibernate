@@ -10,7 +10,7 @@ public class Main {
 
         Student s1 = new Student();
         s1.setRollNo(101);
-        s1.setsName("Navin");
+        s1.setsName("teja");
         s1.setsAge(30);
         Configuration cfg = new Configuration();
         cfg.addAnnotatedClass(Student.class);

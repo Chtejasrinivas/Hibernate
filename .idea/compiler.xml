@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="HibProj (8)" />
+        <module name="HibProj (9)" />
+        <module name="HibProj" />
+        <module name="HibProj (2)" />
+        <module name="HibProj (15)" />
+        <module name="HibProj (3)" />
+        <module name="HibProj (16)" />
+        <module name="HibProj (4)" />
+        <module name="HibProj (5)" />
+        <module name="HibProj (6)" />
+        <module name="HibProj (7)" />
+        <module name="HibProj (10)" />
+        <module name="HibProj (13)" />
+        <module name="HibProj (14)" />
+        <module name="HibProj (11)" />
+        <module name="HibProj (12)" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="HibProj (1)" target="23" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

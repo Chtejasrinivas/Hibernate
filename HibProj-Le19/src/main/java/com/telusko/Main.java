@@ -10,6 +10,7 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
 
+        // Demo for HQL -> Hibernate Query Language
 
         SessionFactory sf = new Configuration()
                 .configure()

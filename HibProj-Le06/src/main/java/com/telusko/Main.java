@@ -9,14 +9,14 @@ public class Main {
     public static void main(String[] args) {
 
         Student s1 = new Student();
-//        s1.setRollNo(102);
-//        s1.setsName("Kiran");
-//        s1.setsAge(25);
+        s1.setRollNo(102);
+        s1.setsName("Kiran");
+        s1.setsAge(25);
 
 
-//        s1.setRollNo(104);
-//        s1.setsName("Sushil");
-//        s1.setsAge(19);
+        s1.setRollNo(104);
+        s1.setsName("Sushil");
+        s1.setsAge(19);
 
         s1.setRollNo(105);
         s1.setsName("Gaurav");
