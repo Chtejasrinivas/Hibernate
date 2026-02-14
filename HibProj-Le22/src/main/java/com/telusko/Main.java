@@ -19,6 +19,8 @@ public class Main {
         System.out.println(l1);
         session.close();
 
+        // here we are creating two session to demonstrate becuase of L2 cache is not implemented by default 
+        // two get queries are fired to access the same data even tough it's not changed in this case. 
         Session session1 = sf.openSession();
         Laptop l2 = session1.find(Laptop.class, 2);
         System.out.println(l2);
