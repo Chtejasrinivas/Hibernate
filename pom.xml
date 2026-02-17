@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.hibernate.demo</groupId>
-    <artifactId>Hibernate</artifactId>
+    <groupId>org.hibernate.learning</groupId>
+    <artifactId>HibernateAndDependencyInjections</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -25,6 +25,12 @@
             <groupId>org.hibernate.orm</groupId>
             <artifactId>hibernate-core</artifactId>
             <version>7.2.3.Final</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>7.0.3</version>
             <scope>compile</scope>
         </dependency>
     </dependencies>

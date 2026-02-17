@@ -4,8 +4,12 @@ package org.hibernate.learning;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
+import org.hibernate.learning.model.Customer;
+import org.hibernate.learning.model.CustomerOrder;
 
 import java.util.Properties;
+
+// Refer here for Hibernate concept
 
 public class Main {
     public static void main(String[] args) {

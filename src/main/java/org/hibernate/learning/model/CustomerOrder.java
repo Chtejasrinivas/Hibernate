@@ -1,4 +1,4 @@
-package org.hibernate.learning;
+package org.hibernate.learning.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
